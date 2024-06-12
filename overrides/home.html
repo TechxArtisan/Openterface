@@ -1,0 +1,246 @@
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+
+  <section class="mdx-container">
+    <div class="md-grid md-typeset">
+      <div class="mdx-hero">
+        <div class="mdx-hero__image">
+          <img src="images/cover.png" alt="" width="1659" height="1200" draggable="false">
+        </div>
+        <div class="mdx-hero__content">
+          <div class="logo-container">
+            <img src="assets/logo.png" alt="Openterface Logo" width="138" draggable="false">
+            <img src="images/logo-c-eng-white.svg" alt="Openterface Logo-C" draggable="false">
+          </div>
+          <p>Enabling you to transform laptop into a KVM console for controlling any headless device via HDMI & USB.</p>
+          <!-- <a href="{{ 'quick-start/' | url }}" title="Get-Started" class="md-button md-button--primary">
+            Get Started
+          </a> -->
+          <a href="{{ 'https://www.reddit.com/r/Openterface_miniKVM/comments/1cpcowl/make_your_mark_join_our_round_2_beta_testing_crew/' | url }}" title="Apple-Beta" class="md-button md-button--primary">
+            Apply for Beta
+          </a>
+          <a href="{{ 'https://www.crowdsupply.com/techxartisan/openterface-mini-kvm' | url }}" title="Be Our Backer" class="md-button">
+            Be Our Backer
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-close-up" id="product-close-up">
+    <div class="container">
+      <div class="product-close-up-content">
+        <div class="product-image">
+          <img src="/images/product/close-up.png" alt="Product Close-up">
+        </div>
+        <div class="product-description">
+          <p>Elevate your tech toolkit with Openterface Mini-KVM: 
+            A <strong>compact, feature-rich, open-source KVM-over-USB</strong> solution that simplifies your tech life with on-the-fly IT tasks and troubleshooting.
+          </p>
+        </div>
+      </div>
+  
+      <div class="product-close-up-content reverse-layout">
+        <div class="product-image">
+          <!-- <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Just the other day, facing a <a href="https://twitter.com/hashtag/server?src=hash&amp;ref_src=twsrc%5Etfw">#server</a> lock-up? 😱 My mini <a href="https://twitter.com/hashtag/KVM?src=hash&amp;ref_src=twsrc%5Etfw">#KVM</a> saved a day! Worked like a charm to control <a href="https://twitter.com/hashtag/Ubuntu?src=hash&amp;ref_src=twsrc%5Etfw">#Ubuntu</a> from my <a href="https://twitter.com/hashtag/macbook?src=hash&amp;ref_src=twsrc%5Etfw">#macbook</a>! 😎✨ no need fo clunky monitor, keyboard, or mouse, and no fussing with network setups! 🙌 <a href="https://twitter.com/hashtag/SysAdmin?src=hash&amp;ref_src=twsrc%5Etfw">#SysAdmin</a> <a href="https://twitter.com/hashtag/Linux?src=hash&amp;ref_src=twsrc%5Etfw">#Linux</a> <a href="https://twitter.com/hashtag/homelab?src=hash&amp;ref_src=twsrc%5Etfw">#homelab</a> <a href="https://twitter.com/hashtag/ITPros?src=hash&amp;ref_src=twsrc%5Etfw">#ITPros</a> <a href="https://twitter.com/hashtag/selfhost?src=hash&amp;ref_src=twsrc%5Etfw">#selfhost</a> <a href="https://t.co/3BqaeoeY4H">pic.twitter.com/3BqaeoeY4H</a></p>
+            &mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1754754378395996445?ref_src=twsrc%5Etfw">February 6, 2024</a>
+          </blockquote> -->
+          <img src="/images/product/use-case-demo-industrial-pc.jpg" alt="Pre Launch Poster">
+        </div>
+        <div class="product-description">
+          <p>Say goodbye to an extra monitor, keyboard, and mouse!
+            Turn your laptop into a smart KVM console for controlling any headless device via HDMI and USB.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature-dev-test" id="feature-dev-test">
+    <div class="container">
+      <h2>Features at a Glance</h2>
+      <div class="videos-wrapper">
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/r3HNUflWGOY?si=PCr1dIKFIsdnddqe" title="Introduction Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ERzpGtRvP2o?si=kTgl8-iQwSupuIT4" title="Beta App for Windows" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="video-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xAEQpWyfY-c?si=7aMQoJ-1bBI5Hicw" title="Product Review" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <section class="connection-demo" id="connection-demo">
+    <div class="container">
+      <h2>Connections</h2>
+        <div class="connection-row">
+            <div class="connection-block">
+                <img src="images/product/connection-macos.png" alt="Connection macOS" draggable="false">
+                <p>Host Computer</p>
+            </div>
+            <div class="connection-block">
+                <img src="images/product/connection-op.png" alt="Connection Openterface mini-KVM" draggable="false" class="connection-op-img">
+                <p><span class="bold-text">Openterface Mini-KVM</span></p>
+            </div>
+            <div class="connection-block">
+                <img src="images/product/connection-targets.png" alt="Connection Target Devices" draggable="false">
+                <p>Target Devices</p>
+            </div>
+        </div>
+    </div>
+  </section>
+  
+  <section class="product-features" id="product-features">
+    <div class="container">
+      <h2>Product Features</h2>
+      <div class="features-list">
+        <div class="feature">
+          <h3>Host App Compatibility</h3>
+          <p>Supports macOS, Windows, and Linux, with Android support in development.</p>
+        </div>
+        <div class="feature">
+          <h3>Plug-and-Play Convenience</h3>
+          <p>Instant control upon connection, with no software installation or configuration on the target device. Leaves no software traces on the target computer. </p>
+        </div>
+        <div class="feature">
+          <h3>Network Independence</h3>
+          <p>Stable and fast headless control via HDMI and emulated keyboard/mouse (HID) input.</p>
+        </div>
+        <div class="feature">
+          <h3>Ultra-Portable Design</h3>
+          <p>Its compact and lightweight design makes it the perfect tool for professionals on the go.</p>
+        </div>
+        <div class="feature">
+          <h3>Full HD with Low Latency</h3>
+          <p>Supported output video up to 1920x1080@30Hz with under 140 milliseconds of latency. Adaptable to VGA, Micro HDMI, DVI, and other inputs with a video adapter.</p>
+        </div>
+        <div class="feature">
+          <h3>Audio Integration</h3>
+          <p>Captures and plays the target device's audio directly on the host computer.</p>
+        </div>
+        <div class="feature">
+          <h3>BIOS-Level Access</h3>
+          <p>Provides direct access to the target device's BIOS, firmware, or startup management.</p>
+        </div>
+        <div class="feature">
+          <h3>Switchable USB Type-A Port</h3>
+          <p>This allows you to toggle USB access between the host and the target, ideal for sharing a USB drive without replugging.</p>
+        </div>
+        <div class="feature">
+          <h3>Text Transfer</h3>
+          <p>Allows text to be sent from the host to the target device, ideal for copying usernames, passwords, or code snippets.</p>
+        </div>
+      </div>
+      <a href="{{ 'specifications/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <section class="dialogue-section" id="dialogues-section">
+    <div class="container">
+      <div class="dialogue-bubble" id="buy-bubble">
+        <p>I want to buy!</p>
+      </div>
+      <div class="dialogue-bubble" id="idea-bubble">
+        <p>I want to ask!</p>
+      </div>
+      <div class="dialogue-bubble" id="advice-bubble">
+        <p>I want to advise!</p>
+      </div>
+    </div>
+    <div class="callout-button-container">
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Be Our Backer! ❤️</p>
+        <a href="https://www.crowdsupply.com/techxartisan/openterface-mini-kvm" class="md-button md-button--primary" id="join-waitlist-button">Go to Crowd Supply</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Check Out 🔍</p>
+        <a href="/faq" class="md-button md-button--primary" id="join-waitlist-button">FAQs</a>
+      </div>
+      <div class="dialogue-bubble" id="op-bubble">
+        <img src="/images/op-avatar.jpg" alt="Avatar" class="avatar" draggable="false">
+        <p>Let's Chat! 💬</p>
+        <a href="https://www.reddit.com/r/Openterface_miniKVM/" class="md-button md-button--primary" id="join-waitlist-button">Subreddit</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="poster-section" id="poster-section">
+    <div class="container">
+      <img src="/images/event/Join-Pre-Launch-VGA.png" alt="Poster Image" class="poster-image">
+    </div>
+  </section>
+
+  <section class="comparison-solution" id="comparison-solution">
+    <div class="container">
+      <h2>Comparison</h2>
+      <p>
+        To learn how our Openterface mini-KVM compares to other KVM solutions, such as traditional KVM switch, KVM-over-IP, VNC, etc.
+      </p>
+      <a href="{{ 'comparison' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <section class="use-cases" id="use-cases">
+    <div class="container">
+      <h2>Use Cases</h2>
+      <p>
+        It supports a variety of use cases,
+        from speedy troubleshooting to integrating seamless operations between personal and work computers.
+        Ideal for tech enthusiasts and IT professionals.
+      </p>
+      <a href="{{ 'use-cases/' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+        Read More
+      </a>
+    </div>
+  </section>
+
+  <section class="twitter-feed-section" id="twitter-feed">
+    <div class="container">
+      <h2>Featured Tweets</h2>
+      <div class="twitter-posts">
+        <p id="loadingMessage">Loading tweets...</p>
+
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">We are absolutely thrilled and grateful to see our <a href="https://twitter.com/hashtag/miniKVM?src=hash&amp;ref_src=twsrc%5Etfw">#miniKVM</a> featured on <a href="https://twitter.com/camerongray1515?ref_src=twsrc%5Etfw">@camerongray1515</a> <a href="https://twitter.com/hashtag/YouTube?src=hash&amp;ref_src=twsrc%5Etfw">#YouTube</a> channel! Huge thanks to Cameron for the detailed preview that demonstrated and articulated insightful points about this little <a href="https://twitter.com/hashtag/Gadget?src=hash&amp;ref_src=twsrc%5Etfw">#Gadget</a> ! <a href="https://t.co/PazZ3PxqFO">https://t.co/PazZ3PxqFO</a></p>
+          &mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1774690011243549108?ref_src=twsrc%5Etfw">April 1, 2024</a>
+        </blockquote>
+
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">👋 Dive into our video testing the basic features of the Openterface Mini-KVM for Windows! Grab the beta app here: <a href="https://t.co/6UwanwhWy8">https://t.co/6UwanwhWy8</a> Heads-up, we&#39;re still ironing out some features🔧, so expect some bugs🐛. Cheers! <a href="https://t.co/Aa4JrdFZso">https://t.co/Aa4JrdFZso</a></p>
+          &mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1788589811705778541?ref_src=twsrc%5Etfw">May 9, 2024</a>
+        </blockquote>
+        
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">Our macOS host application for Openterface mini-KVM is now available on the Apple App Store!!! To discover our application, simply search for &quot;Openterface&quot; or &quot;minikvm&quot; on the App Store 🔍 <a href="https://t.co/OazerTlgEk">pic.twitter.com/OazerTlgEk</a></p>
+          &mdash; TechxArtisan (@TechxArtisan) <a href="https://twitter.com/TechxArtisan/status/1771169727970156832?ref_src=twsrc%5Etfw">March 22, 2024</a>
+        </blockquote> 
+
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+      </div>
+    </div>
+    <a href="{{ 'blog' | url }}" title="Read More" class="md-button md-button--primary read-more-btn">
+      Read More Posts
+    </a>
+  </section>
+  
+{% endblock %}
+
+{% block content %}{% endblock %}
+
+{% block footer %}
+  {{ super() }}
+{% endblock %}
